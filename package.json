@@ -1,6 +1,6 @@
 {
   "name": "@enviabybus/express-validation",
-  "version": "3.0.7",
+  "version": "3.0.8",
   "author": "Andrew Keig <andrew.keig@gmail.com>",
   "description": "express-validation is a middleware that validates a request and returns a response with errors; if any of the configured validation rules fail.",
   "main": "./lib/index",
@@ -33,7 +33,7 @@
     "middleware"
   ],
   "dependencies": {
-    "joi": "17.x.x"
+    "joi": "^17.2.1"
   },
   "jest": {
     "collectCoverageFrom": [
